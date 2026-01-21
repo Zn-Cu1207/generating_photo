@@ -1,0 +1,30 @@
+# ====== 核心框架依赖 ======
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+sqlmodel==0.0.14
+pydantic[email]==2.5.0
+pydantic-settings==2.1.0
+
+# ====== AI服务SDK ======
+openai==1.6.1
+cryptography==41.0.7
+
+# ====== 异步HTTP客户端 ======
+httpx==0.25.1
+
+# ====== 工具和工具类 ======
+python-dotenv==1.0.0
+python-multipart==0.0.6
+# Pillow 注释掉，暂时不需要
+# Pillow==10.1.0
+aiofiles==23.2.1
+loguru==0.7.2
+python-dateutil==2.8.2
+pytz==2023.3.post1
+
+# ====== 开发依赖 ======
+pytest==7.4.3
+pytest-asyncio==0.21.1
+alembic==1.12.1
+black==23.11.0
+isort==5.12.0
